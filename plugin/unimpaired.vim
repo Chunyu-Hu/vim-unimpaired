@@ -329,6 +329,7 @@ nmap <script> <Plug>(unimpaired-enable)d  :<C-U>diffthis<CR>
 nmap <script> <Plug>(unimpaired-disable)d :<C-U>diffoff<CR>
 nmap <script> <Plug>(unimpaired-toggle)d  :<C-U><C-R>=&diff ? "diffoff" : "diffthis"<CR><CR>
 call s:option_map('h', 'hlsearch', 'set')
+call s:option_map('e', 'expandtab', 'set')
 call s:option_map('i', 'ignorecase', 'set')
 call s:option_map('l', 'list', 'setlocal')
 call s:option_map('n', 'number', 'setlocal')
